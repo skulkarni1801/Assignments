@@ -11,11 +11,11 @@ def get_meta_data(url, dictionary):
     """
     print("zero...")
 
-    response_text = requests.get(url).text
+    metadata_text = requests.get(url).text
 
-    print("one..." + response_text)
+    print("one..." + metadata_text)
 
-    for key in response_text.split('\n'):
+    for key in metadata_text.split('\n'):
         newurl = f'{url}{key}'
         if key.endswith('/'):
             newkey = key.split('/')[-2]
