@@ -9,12 +9,7 @@ terraform {
 
 provider "aws" {
   region = "ap-southeast-1"
-  #credential = "C:\\Sourabh\\AWSCloudDetails\\RootPrivateKey\\rootkey"
-  #profile = "name-of-your-profile"
-  access_key = "AKIASYUR3G4LOSXJLWP2"
-  secret_key = "6gq0oSO7QXhVoo831Q2pp+hg/Z0L1m0q3F2RRieU"
-
-}
+ }
 
 
 # VPC Resource
